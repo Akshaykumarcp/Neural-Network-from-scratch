@@ -1,3 +1,30 @@
+"""
+Trainable parameters:
+- Weights
+- Biases
+    - The purpose of the bias is to offset the output positively or negatively, which can further
+        help us map more real-world types of dynamic data.
+
+why not just have biases or just weights?
+- Biases and weights are both tunable parameters, and both will impact the neurons’ outputs, but
+    they do so in different ways.
+WEIGHTS
+- Since weights are multiplied, they will only change the magnitude or
+    even completely flip the sign from positive to negative, or vice versa.
+- If weights and biases are thought as a straight line equation.
+    - Output = weight·input+bias is not unlike the equation for a line y = mx+b
+    - Adjusting the weight will impact the slope of the function
+    - As we increase the value of the weight, the slope will get steeper. If we decrease the weight, the
+        slope will decrease. If we negate the weight, the slope turns to a negative
+BIAS
+- The bias offsets the overall function.
+- As we increase the bias, the function output overall shifts upward. If we decrease the bias, then
+    the overall function output will move downward.
+
+- weights and biases help to impact the outputs of neurons, but they do so in
+    slightly different ways.
+"""
+
 # modelling single neuron with 3 inputs and 1 output
 inputs = [1,2,3]
 weights = [0.2, 0.8, -0.5]

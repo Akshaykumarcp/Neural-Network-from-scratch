@@ -24,3 +24,8 @@ several classes, tens of thousands of samples are what you should start with.
 to train a chatbot the intricacies of written language, then you’re going to likely want at least
 millions of samples.
 Supplementary
+
+### overfitting
+- when the algorithm only learns to fit the training data but doesn’t actually “understand”
+    anything about underlying input-output dependencies.
+- The network basically just “memorizes” the training data.
